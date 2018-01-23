@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RPS Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+	<div class="jumbotron text-center">
+		<h1>Rock Paper Scissors!</h1>
+		<input type="text" class="form-control" id="playerName" placeholder="Enter Your Name">
+		<button class="btn-primary" id="submitName">Submit</button>
+	</div>
+	<div class="marketing container">
+		 <div class="row">
+		 	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			 	<div class="panel panel-default">
+			 		<div class="panel-heading" id="player1Name">Player 1</div>
+				  	<div class="panel-body">
+				    	<a href="#" class="list-group-item play1">Rock</a>
+						<a href="#" class="list-group-item play1">Paper</a>
+						<a href="#" class="list-group-item play1">Scissors</a>
+				  	</div>
+				  	<div class="panel-footer text-center">
+						<button class="btn btn-primary" type="button">
+		  					Wins <span class="badge" id="totalWins">0</span>
+		  				</button>
+					  	<button class="btn btn-danger" type="button">
+					  		Losses <span class="badge" id="totalLosses">0</span>
+					  	</button>
+					  	<button class="btn btn-warning" type="button">
+					  		Ties <span class="badge" id="totalTies">0</span>
+				  		</button>
+				  	</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			 	<div class="panel panel-default">
+			 		<div class="panel-heading">Battle Ground</div>
+				  	<div class="panel-body">
+				    	
+				  	</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+			 	<div class="panel panel-default">
+			 		<div class="panel-heading" id="player2Name">Player 2</div>
+				  	<div class="panel-body">
+						<a href="#" class="list-group-item play2">Rock</a>
+						<a href="#" class="list-group-item play2">Paper</a>
+						<a href="#" class="list-group-item play2">Scissors</a>
+				  	</div>
+				  	<div class="panel-footer text-center">
+						<button class="btn btn-primary" type="button">
+		  					Wins <span class="badge" id="totalWins">0</span>
+		  				</button>
+					  	<button class="btn btn-danger" type="button">
+					  		Losses <span class="badge" id="totalLosses">0</span>
+					  	</button>
+					  	<button class="btn btn-warning" type="button">
+					  		Ties <span class="badge" id="totalTies">0</span>
+				  		</button>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			 	<div class="panel panel-default">
+			 		<div class="panel-heading">Chat</div>
+				  	<div class="panel-body">
+				  		
+				  	</div>
+				</div>
+			</div>
+		</div>
+			
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    	<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    	<script src="./assets/js/script.js"></script>
+</body>
+</html>
